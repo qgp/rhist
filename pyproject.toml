@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rhist"
+version = "0.0.1"
+authors = [
+  { name="Jochen Klein", email="jochen.klein@cern.ch" },
+]
+description = "A sane(r) interface to ROOT histograms"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/qgp/rhist"
+Issues = "https://github.com/qgp/rhist/issues"
